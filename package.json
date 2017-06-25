@@ -1,0 +1,29 @@
+{
+  "name": "rsat.ui",
+  "version": "1.0.0",
+  "description": "A material design ui elements library for angularjs application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithsathya/rsat.ui.git"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "ui",
+    "angular",
+    "js"
+  ],
+  "author": "rsat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohithsathya/rsat.ui/issues"
+  },
+  "homepage": "https://github.com/rohithsathya/rsat.ui#readme",
+  "devDependencies": {
+    "gulp-minify": "^1.0.0"
+  }
+}
