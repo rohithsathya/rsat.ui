@@ -22,11 +22,14 @@ Getting started with rsat.ui is very simple, please follow the simple steps belo
     ```
 
     Thats it..:), you have successfully added rsat.ui into your angularjs project.
-#components
+    
+# Components
 rsat.ui includes new versions of common user interface controls such as buttons, check boxes, and text fields, adapted to follow Material Design concepts.
 
-##Buttons
+## Buttons
+
 Variations on Material Design buttons.
+
 | Button Types       | How To Use  | Preview  |
 | ------------- | ------------- |------------- |
 |Raised button|`<button rsat-Button-raised>Raised</button>`||
@@ -35,7 +38,6 @@ Variations on Material Design buttons.
 |Flat button|`<button rsat-Button-flat>Flat</button>`||
 |Flat button Primary|`<button rsat-Button-flat-primary>Flat primary</button>`||
 |Flat button Accent|`<button rsat-Button-flat-accent>Flat Accent</button>`||
-
 |FAB|`<button rsat-fab>+</button>`||
 |Icon button|`<button rsat-Button-icon>+</button>`||
 |Icon button Primary|`<button rsat-Button-icon-primary>+</button>`||
