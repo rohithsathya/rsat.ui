@@ -3,7 +3,7 @@ rsat UI is the material design ui components library bulit reference implementat
 
 This component library includes new versions of common user interface controls such as buttons, check boxes, and text fields, adapted to follow Material Design concepts. 
 
-Explore. [here](https://rohithsathya.github.io/SmartTable/example/)
+Explore. [here](https://rohithsathya.github.io/rsat.ui/example/)
 
 ## Dependencies
 * Angular Js
