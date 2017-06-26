@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/rohithsathya/rsat.ui#readme",
   "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-download": "0.0.1",
     "gulp-minify": "^1.0.0"
   }
 }

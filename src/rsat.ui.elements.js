@@ -1,26 +1,3 @@
-//include mdl library
-
-// <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-// <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-// <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-function addCssFile(url){
-    var link = document.createElement( "link" );
-    link.href = url;
-    link.type = "text/css";
-    link.rel = "stylesheet";
-    document.getElementsByTagName( "head" )[0].appendChild( link );
-}
-function addJsFile(url){
-    var script = document.createElement( "script" );
-    script.src = url;
-    document.getElementsByTagName( "head" )[0].appendChild( script );
-}
-addCssFile("https://fonts.googleapis.com/icon?family=Material+Icons");
-addCssFile("https://code.getmdl.io/1.3.0/material.indigo-pink.min.css");
-addJsFile("https://code.getmdl.io/1.3.0/material.min.js");
-
-
 var uiElementsApp = angular.module('rsat.ui.elements', []);
 //raised
 uiElementsApp.directive('rsatButtonRaised',function(){

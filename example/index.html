@@ -3,7 +3,8 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="../dist/rsat.ui.elements.js"></script>
+    <link rel="styleSheet" href="../dist/rsat.ui.elements.min.css"/>
+    <script src="../dist/rsat.ui.elements.min.js"></script>
     <script>
         var app = angular.module('myApp', ['rsat.ui.elements']);
         app.controller('myController', function ($scope) {
@@ -26,17 +27,11 @@
 
         <button rsat-Button-flat-accent>Flat Accent</button>
 
-        <button rsat-fab>
-            G
-        </button>
+        <button rsat-fab>+</button>
 
-        <button rsat-Button-icon>
-            G
-        </button>
+        <button rsat-Button-icon>+</button>
 
-        <button rsat-Button-icon-primary>
-            G
-        </button>
+        <button rsat-Button-icon-primary>+</button>
 
 
 
